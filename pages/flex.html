@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+   body > section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+   }
+   section > div {
+    flex: 0 0 200px;
+   }
+   section > section {
+    flex: 1 0 400px;
+   }
+   section > * {
+    width: auto;
+   }
+  </style>
+ </head>
+ <body>
+  <header>
+   <nav>
+    <ul>
+     <li><a href="../index.html">Flexbox</a></li>
+     <li><a href="./flex-direction.html">Flex direction</a></li>
+     <li><a href="./flex-wrap.html">Flex wrap</a></li>
+     <li><a href="./gap.html">Gap</a></li>
+     <li><a href="./justify-content.html">Justify content</a></li>
+     <li><a href="./align-content.html">Align content</a></li>
+     <li><a href="./flex.html">Flex</a></li>
+     <li><a href="./order.html">Order</a></li>
+    </ul>
+   </nav>
+  </header>
+  <section>
+   <section>1</section>
+   <div>2</div>
+   <div>3</div>
+   <section>4</section>
+   <div>5</div>
+   <div>6</div>
+  </section>
+ </body>
+</html>

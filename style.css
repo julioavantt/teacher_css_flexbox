@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+
+* {
+ font-family: "Chicle", serif;
+ color: #f2b1ab;
+}
+
+body {
+ background-color: #f2b1ab;
+ margin: 0;
+}
+
+header {
+ height: 60px;
+ background-color: #d0eeec;
+ margin-bottom: 2.5rem;
+}
+
+header ul {
+ padding: 9px 0 0;
+ margin: 0;
+ display: flex;
+ width: 1110px;
+ margin: 0 auto;
+}
+
+header li {
+ list-style: none;
+}
+
+header li a {
+ font-size: 1rem;
+ text-decoration: none;
+ padding: 0 1.2rem;
+ font-size: 2rem;
+}
+
+body > section {
+ height: calc(100vh - 4rem);
+ border: 6px solid #d0eeec;
+ border-radius: 20px;
+ width: 80%;
+ margin: 0 auto;
+}
+
+section > * {
+ height: 250px;
+ width: auto;
+ min-width: 250px;
+ background-color: #d0eeec;
+ display: grid;
+ place-items: center;
+ border-radius: 20px;
+ border: 5px solid white;
+ font-size: 2.5rem;
+ font-weight: bolder;
+}
